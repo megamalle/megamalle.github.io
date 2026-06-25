@@ -67,6 +67,40 @@
 
   <main role="main">
 
+<!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              Hi.
+              I am Malin Alexandersson Fridh, a problem solver at heart.
+              I'm currently studying game programming at Futuregames Malmö.
+
+              My origin villain story is that of a civil engineer within
+              energy and environmental system.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="./images/CV_Malin_Alexandersson_Fridh.pdf" 
+             class="btn" 
+             target="_blank">
+             My Resume
+            </a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/profile-picture.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    
     <!-- ***** Work ***** -->
 
     <section class="work" id="work">
@@ -78,29 +112,95 @@
 
           <div class="work__box">
             <div class="work__text">
+              <h3>Oliver's Arrival</h3>
+              <p>
+                The year is 2100. The world has drowned. 
+                After catastrophic flooding caused by global warming, humanity clings to survival on scattered outposts across a hostile ocean. 
+                Forced to flee your home with your loyal dog, you set sail toward a distant survivalist outpost — but the waters are haunted by sea monsters, ghouls, and voices that prey on your sanity.
+              </p>
+              <ul class="work__list">
+                <li>Third project at Futuregames</li>
+                <li>Genre: First-Person Psychological Horror</li>
+                <li>Team: Group of 5 programmers</li>
+                <li>Timeline: 7 weeks</li>                
+                <li>Engine and tools: </li>
+                <li>- Unreal Engine, C++, Blueprints</li>
+                <li>- Perforce </li>
+                <li>My contributions:</li>
+                <li>- Boat physics</li>
+                <li>- Event system</li>
+                <li>- Interaction system</li>
+              </ul>
+              
+              <!--<div class="work__links">
+                <a href="https://futuregames.itch.io/what-the-blade-taught-me" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+              </div>-->
+            </div>
+            <div class="work__image-box">
+              <img src="./images/WTB-poster.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>A Friendly Game of Kubb</h3>
+              <p>
+                A small physics-based game inspired by the traditional Swedish lawn game Kubb, created as a school assignment. 
+                The project focused on implementing turn-based gameplay, aiming and throwing mechanics, object interactions and a weather event system.
+              </p>
+              <ul class="work__list">
+                <li>Genre: Physics-based Sports Game</li>
+                <li>Team: 1</li>
+                <li>Timeline: 5 weeks</li>                
+                <li>Engine and tools: </li>
+                <li>- Unreal Engine, C++, Blueprints</li>
+                <li>My contributions:</li>
+                <li>- Gameplay loop</li>
+                <li>- Turn-based system</li>
+                <li>- Simple AI opponent</li>
+                <li>- Aiming and throwing mechanics</li>
+                <li>- Physics-based interactions</li>
+                <li>- Rule handling and progression</li>
+              </ul>
+              
+              <!--<div class="work__links">
+                <a href="https://futuregames.itch.io/what-the-blade-taught-me" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+              </div>-->
+            </div>
+            <div class="work__image-box">
+              <img src="./images/WTB-poster.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>              
+          
+          <div class="work__box">
+            <div class="work__text">
               <h3>What the blade taught me</h3>
               <p>
-                The second game project in Futuregames education.
+                A dark fantasy 2D top-down Action RPG where combat, mystery, and narrative are intertwined through a single unusual companion: a talking dagger. 
+                After returning home, you discover a letter from your missing master along with a strange weapon known as the Daggerblade. The blade speaks, guiding you through a dangerous dungeon in your quest to rescue your master. But the deeper you travel into the castle’s halls, the more unsettling the dagger’s guidance becomes.
               </p>
               <ul class="work__list">
                 <li>Second project at Futuregames</li>
                 <li>Genre: Top down RPG with hack & slash + quest system</li>
                 <li>Team: Group of 3 programmers and 6 UI/UX/ game designers</li>
-                <li>Timeline: 4 weeks</li>                
-                <li>Unity, C#</li>
-                <li>Quest system</li>
-                <li>Simple dialogue system</li>
-                <li>Dagger energy management</li>
+                <li>Timeline: 4 weeks</li>
+                <li>Engine and tools: </li>
+                <li>- Unity, C#</li>
+                <li>- Github</li>
+                <li>My contributions:</li>
+                <li>- Quest system</li>
+                <li>- Simple dialogue system</li>
+                <li>- Dagger energy management</li>
               </ul>
 
-              <!--<div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
+              <div class="work__links">
+                <a href="https://futuregames.itch.io/what-the-blade-taught-me" target="_blank" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>-->
+              </div>
             </div>
             <div class="work__image-box">
               <img src="./images/WTB-poster.png" class="work__image" alt="Project 1" />
@@ -123,9 +223,12 @@
                 <li>Genre: Endless runner</li>
                 <li>Team: Group of 6 programmers</li>
                 <li>Timeline: 3 weeks</li> 
-                <li>Unity, C#</li>
-                <li>Procedural level generation</li>
-                <li>Marketing assets (poster, itch.io game cover)</li>
+                <li>Engine and tools: </li>
+                <li>- Unity, C#</li>
+                <li>- Github</li>
+                <li>My contributions:</li>
+                <li>- Procedural level generation</li>
+                <li>- Marketing assets (poster, itch.io game cover)</li>
               </ul>
 
               <!--<div class="work__links">
@@ -163,38 +266,7 @@
       </div>
     </section>
     -->
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              Hi.
-              I am Malin Alexandersson Fridh, a problem solver at heart.
-              I'm currently studying game programming at Futuregames Malmö.
-
-              My origin villain story is that of a civil engineer within
-              energy and environmental system.
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="./images/CV_Malin_Alexandersson_Fridh.pdf" 
-             class="btn" 
-             target="_blank">
-             My Resume
-            </a>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/profile-picture.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+    
 
   <!-- ***** Contact ***** -->
 
